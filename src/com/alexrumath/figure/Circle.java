@@ -9,6 +9,6 @@ public class Circle implements IFigure {
 
     @Override
     public double getArea() {
-        return Math.PI * this.radius;
+        return Math.PI * this.radius * this.radius;
     }
 }

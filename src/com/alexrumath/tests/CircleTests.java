@@ -30,7 +30,7 @@ public class CircleTests {
         for (int i = 0; i < circles.length; i++) {
             double area = circles[i].getArea();
 
-            assertEquals(Math.PI * circles[i].radius, area, this.delta);
+            assertEquals(Math.PI * circles[i].radius * circles[i].radius, area, this.delta);
         }
     }
 }
